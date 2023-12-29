@@ -1,0 +1,122 @@
+{
+  "mod_elements": [
+    {
+      "name": "Testing",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testing",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HRTNeedle",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hrt_needle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mogcraft/models/item/hrt_needle.json",
+          "src/main/java/net/mcreator/mogcraft/item/HRTNeedleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hrtneedlefull",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hrtneedlefull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mogcraft/item/HrtneedlefullItem.java",
+          "src/main/resources/assets/mogcraft/models/item/hrtneedlefull.json"
+        ]
+      }
+    },
+    {
+      "name": "HrteffectOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hrteffect_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mogcraft/procedures/HrteffectOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hrteffect",
+      "type": "potioneffect",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hrteffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mogcraft/potion/HrteffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Hrtneedlevial",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hrtneedlevial",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mogcraft/item/HrtneedlevialItem.java",
+          "src/main/resources/assets/mogcraft/models/item/hrtneedlevial.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mogcraft.hrt_needle": "HRT Needle",
+      "effect.mogcraft.hrteffect": "Happiness",
+      "item.mogcraft.hrtneedlevial": "Hrtneedlevial",
+      "item_group.mogcraft.testing": "Testing",
+      "item.mogcraft.hrtneedlefull": "HRT Needle"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mogcraft",
+    "modName": "Mogcraft",
+    "version": "1.0.0",
+    "author": "Slate, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.mogcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300451615
+}

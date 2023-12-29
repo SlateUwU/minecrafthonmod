@@ -1,0 +1,20 @@
+tranny modpack
+
+pronouns
+villager happiness misgender/hate crime
+structure with m/w bathrooms, hrt level
+stacking hrt
+hrt weakness
+hrt pharmacist
+dysphoria mechanic
+too much hrt poison
+doctors note hrt
+hrt money
+breastplate damage hrt level
+workbench for mod armor to fix
+
+
+
+-------------------------------------------------------------------development notes.------------------------------------------------------
+considering reworking the hrt to uptick a scoreboard created for the player to allow for long term effects of hrt in game rather than providing effects directly tied to hrt item
+example: tick up scoreboard, check scoreboard, apply different levels of haste/weakess/etc depending on scoreboard level of player hrt
