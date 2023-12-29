@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mogcraft:hrt_needle"
+    },
+    {
+      "item": "mogcraft:hrtneedlevial"
+    }
+  ],
+  "result": {
+    "item": "mogcraft:hrtneedlefull",
+    "count": 1
+  }
+}

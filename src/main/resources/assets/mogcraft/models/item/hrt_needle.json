@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mogcraft:item/hrt_needle_empty"
+  }
+}
